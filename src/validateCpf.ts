@@ -1,4 +1,4 @@
-export function validateCpf (str: string) {
+export function validate (str: string) {
 	if (str !== null) {
 		if (str !== undefined) {
 			if (str.length >= 11 && str.length <= 14){
